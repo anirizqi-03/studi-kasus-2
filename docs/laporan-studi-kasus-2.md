@@ -15,9 +15,7 @@
 2. [Environment](#2-environment)
 3. [Langkah & Perintah](#3-langkah--perintah)
 4. [Hasil](#4-hasil)
-5. [Analisis](#5-analisis)
-6. [Kesimpulan & Refleksi](#6-kesimpulan--refleksi)
-7. [Lampiran](#7-lampiran)
+5. [Kesimpulan & Refleksi](#5-kesimpulan--refleksi)
 
 ---
 
@@ -168,9 +166,9 @@ git push
 
 ![alt text](image-5.png)
 
-## Kesimpulan & Refleksi
+## 5 Kesimpulan & Refleksi
 
-###6.1 Yang dipelajari
+###5.1 Yang dipelajari
 - "Jalan di laptop" bukan bukti reproducible — harus diuji di environment target (Linux/container).
 
  - Diagnosis sistematis 5 langkah mencegah tebak-tebakan: cek fondasi (lockfile → install command → runtime → cache) sebelum mencurigai kode.
