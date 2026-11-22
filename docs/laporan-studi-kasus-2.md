@@ -156,3 +156,28 @@ git push
 git add docs/laporan-studi-kasus-2.md
 git commit -m "docs: laporan studi kasus 2"
 git push
+
+## 4 Hasil
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
+![alt text](image-5.png)
+
+## Kesimpulan & Refleksi
+
+###6.1 Yang dipelajari
+- "Jalan di laptop" bukan bukti reproducible — harus diuji di environment target (Linux/container).
+
+ - Diagnosis sistematis 5 langkah mencegah tebak-tebakan: cek fondasi (lockfile → install command → runtime → cache) sebelum mencurigai kode.
+
+ - Error pertama di log CI hampir selalu akar masalah; membaca log dari atas jauh lebih efisien.
+
+-  Perbedaan case-sensitivity filesystem adalah penyebab klasik "jalan di laptop, gagal di CI" yang mudah direproduksi lewat Docker.
+
+-  npm ci + lockfile + .nvmrc adalah trio minimum untuk build reproducible.
+
